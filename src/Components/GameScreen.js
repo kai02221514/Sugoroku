@@ -2,7 +2,7 @@
 export const GameScreen = () => {
     return(
         <div>
-        確認
+        確認用
         </div>
     )
 }
