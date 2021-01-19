@@ -1,8 +1,9 @@
+import Saikoro from "./Saikoro"
 
 export const GameScreen = () => {
     return(
         <div>
-        確認用
+        <Saikoro />
         </div>
     )
 }
