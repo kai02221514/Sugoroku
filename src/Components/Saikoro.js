@@ -10,23 +10,14 @@ bottom: 20px;
 font-size: 30px;
 `
 
-function altRan2() {
-    return(
-        Math.floor(Math.random() * 6) + 1
-    );
-  }
-
-const Saikoro = () => {
+export const Saikoro = (props) => {
     return(
     <div>
-    <form>
-    <Button onClick={() => altRan2}>サイコロを振る</Button>
-    </form>
+    <Button onClick={() => props.func()}>サイコロを振る</Button>
     </div>
     )
 }
 
-export default Saikoro;
 
 
  
