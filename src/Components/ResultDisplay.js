@@ -4,7 +4,7 @@ const Img = styled.img`
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 20px;
+  top: 380px;
   left: 20px;
 `;
 
