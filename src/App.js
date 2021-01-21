@@ -21,7 +21,7 @@ const Button = styled.button`
 
 function App() {
   const [game, setGame] = useState("gamephase1");
-  const [result, setResult] = useState(0);
+  const [result, setResult] = useState(1);
   const [happens, setHappens] = useState([]);
 
   const addHappen = (happen) => {
@@ -41,7 +41,7 @@ function App() {
 
   const altRan2 = () => {
     let number = Math.floor(Math.random() * 6) + 1;
-    setResult(result + number);
+    setResult(number);
   };
 
   return (
@@ -62,7 +62,8 @@ function App() {
         <div>
           <Event happens={happens} fontSize="50" />
           <Saikoro func={altRan2} />
-          <ResultDisplay result={result % 6} />
+          <ResultDisplay result={result} />
+          <h1>{result}</h1>
         </div>
       )}
     </div>

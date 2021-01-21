@@ -9,10 +9,10 @@ const Img = styled.img`
 `;
 
 export const ResultDisplay = (props) => {
-  if (props.result === 0) return <Img src={"/1.png"} />;
-  if (props.result === 1) return <Img src={"/2.png"} />;
-  if (props.result === 2) return <Img src={"/3.png"} />;
-  if (props.result === 3) return <Img src={"/4.png"} />;
-  if (props.result === 4) return <Img src={"/5.png"} />;
-  if (props.result === 5) return <Img src={"/6.png"} />;
+  if (props.result === 1) return <Img src={"/1.png"} />;
+  if (props.result === 2) return <Img src={"/2.png"} />;
+  if (props.result === 3) return <Img src={"/3.png"} />;
+  if (props.result === 4) return <Img src={"/4.png"} />;
+  if (props.result === 5) return <Img src={"/5.png"} />;
+  if (props.result === 6) return <Img src={"/6.png"} />;
 };
