@@ -11,4 +11,6 @@
 <li>JavaScript</li>
 <li>HTML</li>
 <li>CSS</li>
+<li>styled-components</li>
+<li>Netlify</li>
 </ul>
