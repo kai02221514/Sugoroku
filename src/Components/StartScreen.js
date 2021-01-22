@@ -15,7 +15,7 @@ const ButtonContainer = styled.div`
 const StartButton = styled.button`
   text-align: center;
   position: relative;
-  top: 400px;
+  top: 450px;
   width: 200px;
   height: 70px;
   font-size: 40px;
@@ -25,16 +25,10 @@ const StartButton = styled.button`
   }
 `;
 
-const Span = styled.span`
-  color: red;
-`;
-
 export const StartScreen = (props) => {
   return (
     <body className>
-      <Title>
-        双<Span>六</Span>ゲーム
-      </Title>
+      <Title>賽子ゲーム</Title>
       <ButtonContainer>
         <StartButton onClick={() => props.func()}>スタート</StartButton>
       </ButtonContainer>
